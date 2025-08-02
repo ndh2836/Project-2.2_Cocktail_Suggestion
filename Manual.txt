@@ -1,0 +1,24 @@
+Bước 1: Điều hướng đến thư mục Project
+cd "D:\Python Project\Project 2.2_Cocktail_Suggestion"
+hoặc
+mở cmd ở đường link file
+
+Bước 2: Tạo một môi trường ảo mới
+python -m venv cocktail_suggestion
+
+Bước 3: Kích hoạt môi trường ảo
+cocktail_suggestion\Scripts\activate
+
+Bước 4: Cài đặt các thư viện cần thiết
+pip install pandas psycopg2-binary sentence-transformers streamlit
+
+
+Bước 5: Xác nhận là ở vs code đã nhận môi trường ảo
+
+Các lần tiếp theo:
+
+1. Mở Command Prompt/Terminal.
+2. Điều hướng đến thư mục project: cd "D:\Python Project\Project 2.1_Face-Based Employee Check-in System" hoặc mở cmd ở đường link file
+3. Kích hoạt môi trường ảo: pdf_rag_env\Scripts\activate
+4. chạy lệnh streamlit run ....py
+4. Đóng Command Prompt/Terminal hoặc chạy lệnh deactivate, môi trường ảo sẽ tự động bị hủy kích hoạt. 
